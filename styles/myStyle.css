@@ -1,0 +1,159 @@
+body 
+{
+    direction:rtl;
+}
+
+
+/* עיצוב כללי לדפי האתר*/
+#container {
+    font-family: 'Guttman Drogolin';
+ background-image: url('../images/art-background-close-up-2008145.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    width: 960px;
+}
+/* עיצוב ייחודי לדף הבית*/
+#container_home {
+    font-family: 'Guttman Drogolin';
+    background-image: url('../images/ballpen-cellphone-close-up-843266.jpg');
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: 1133px;
+    background-position: -86px 62px;
+    margin: 0 auto;
+    width: 960px;
+}
+
+/* ספרייט לניווט והורדת התצוגת רשימה*/
+nav ul li {
+    
+    float: right;
+    list-style: none;
+}
+    /* עיצוב הטקסט בתפריט הניווט*/
+
+    nav ul li a {
+        display: block;
+        background-color: deeppink;
+        font-family: 'Guttman Drogolin';
+        color: black;
+        width: 180px;
+        height: 50px;
+        text-align: center;
+        font-size: 16px;
+        text-decoration: none;
+        padding-top: 10px;
+        -webkit-border-radius: 122px 122px 31px 45px;
+        border-radius: 122px 122px 31px 45px;
+    }
+        /* במעבר עכבר- עיצוב הטקסט בתפריט הניווט*/
+nav ul li a:hover{
+    background-color:cornflowerblue;
+}
+        /* בלחיצה- עיצוב הטקסט בתפריט הניווט*/
+    nav ul li a:active {
+        background-color: pink;
+    }
+/* בדף הנוכחי- עיצוב הטקסט בתפריט הניווט*/
+.navCurrent {
+    -webkit-box-shadow: 2px 2px 1px 3px #FFBDF6;
+    box-shadow: 2px 2px 1px 3px #FFBDF6;
+    background-color: lightpink;
+    -webkit-border-radius: 122px 122px 31px 45px;
+    border-radius: 122px 122px 31px 45px;
+}
+nav ul li ul {
+    display: none;
+    position: absolute;
+    font-family: 'Guttman Drogolin';
+}
+
+nav ul li:hover > ul {
+    display: block;
+    width: 100px;
+    
+}
+nav
+{
+    padding-bottom:70px;
+}
+/* עיצוב כותרת מסוג h1 */
+h1 {
+    font-size: 50pt;
+}
+/* עיצוב כותרת מסוג h2 */
+h2{
+    font-size:30pt;
+    color:lightpink;
+}
+/* עיצוב כותרות אחיד*/
+#kotert {
+    color: hotpink;
+    text-align: right;
+    font-family: 'Guttman Drogolin';
+    margin:10px;
+}
+/* עיצוב הטקסט בכל פסקה*/
+p {
+    text-align: right;
+    font-family: 'Guttman Drogolin';
+    margin: 30px;
+    font-size:20pt;
+}
+/* עיצוב נקודות הרשימה של תיאור התואר בדף הבית*/
+#toar {
+    list-style-image: url('../images/star (2).png');
+    list-style-position: inside;
+    transition-duration: 2s;
+    transition-timing-function:ease-in;
+}
+    /* -אנימציה מלאה -עיצוב נקודות הרשימה של תיאור התואר בדף הבית*/
+    #toar:hover {
+        list-style-image: url('../images/graduation.png');
+        color:lightpink;
+    }
+    /* עיצוב נקודות הרשימה של תיאור התואר בדף הבית*/
+    #toar li {
+        text-align: right;
+        font-family: 'Guttman Drogolin';
+        font-size: 20pt;
+    }
+/* עיצוב לטקסט מסוים בתוך קטע טקסט*/
+span {
+    font-style: italic;
+    font-size: 26pt;
+    color: mediumpurple;
+    font-family: 'Guttman Drogolin';
+}
+/* עיצוב תמונה*/
+#picaso
+{
+    position:center;
+    height:400px;
+    width:400px;
+}
+/* עיצוב תמונה*/
+#qween {
+    display: inline-block;
+}
+#amiti {
+    display: inline;
+}
+#new{
+    display:inline;
+}
+/* גודל תמונה*/
+#biger{
+    width: 222pt;
+    height: 326pt;
+    margin:20px;
+    
+}
+    /* גדילה במעבר עכבר של התמונה*/
+#biger:hover{
+    width:400px;
+    height:650px;
+}
+
